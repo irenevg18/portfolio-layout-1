@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-layout-1",
+  "version": "1.0.0",
+  "description": "this is a portfolio sample layout",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irenevg18/portfolio-layout-1.git"
+  },
+  "author": "Irene Valle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenevg18/portfolio-layout-1/issues"
+  },
+  
+  "homepage": "https://github.com/irenevg18/portfolio-layout-1#readme"
+}
