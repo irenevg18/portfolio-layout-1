@@ -1,25 +1,102 @@
 <!DOCTYPE html>
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body class="bg-[#FFF7E8]">
- <header>
-    <nav class="flex justify-between mx-20 my-4 items-center">
-        <a href="#main-content" class="focus:bg-emerald-800/10 border-2 border-[#FFF7E8] hover:border-emerald-800 rounded-full"><img src="./images/logo.png" width="140px" alt="logo"></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#FFF7E8]">
+    <header>
+      <nav class="flex justify-between mr-32 ml-[98px] my-4 items-center">
+        <a
+          href="#main-content"
+          class="focus:bg-emerald-800/10 border-2 border-[#FFF7E8] hover:border-emerald-800 rounded-full"
+          ><img src="./images/logo.png" width="140px" alt="logo"
+        /></a>
         <ul class="flex gap-8 font-semibold cursor-pointer">
-            <li class="hover:text-emerald-800 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-b-emerald-800">Home</li>
-            <li class="hover:text-emerald-800 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-emerald-800">Experience</li>
-            <li class="hover:text-emerald-800 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-emerald-800">Portfolio</li>
-            <li class="hover:text-emerald-800 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-emerald-800">Contact</li>
-            <li class="hover:text-emerald-800 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-emerald-800">About</li>
+          <li
+            class="hover:text-emerald-800/50 focus:text-emerald-800/10 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-b-emerald-800"
+          >
+            Home
+          </li>
+          <li
+            class="hover:text-emerald-800/50 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-emerald-800"
+          >
+            Experience
+          </li>
+          <li
+            class="hover:text-emerald-800/50 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-emerald-800"
+          >
+            Portfolio
+          </li>
+          <li
+            class="hover:text-emerald-800/50 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-emerald-800"
+          >
+            Contact
+          </li>
+          <li
+            class="hover:text-emerald-800/50 hover:border-b-2 border-b-2 border-[#FFF7E8] hover:border-emerald-800"
+          >
+            About
+          </li>
         </ul>
-    </nav>
- </header>
- <main id="main-content" class=""></main>
- <footer></footer>
-</body>
+      </nav>
+      <section class="grid grid-cols-3 mx-32 gap-8 h-[75vh]">
+        <div class="bg-[#D85841] px-8 py-20">
+          <h1 class="text-white font-medium text-6xl">
+            Building stuffs for the web are accessible and human centered
+            design.
+          </h1>
+          <button
+            class="bg-white px-8 py-3 text-xl mt-10 rounded-lg hover:text-emerald-800 focus:text-emerald-800/50 shadow-lg shadow-black/40 hover:shadow-emerald-800/60"
+          >
+            Let's talk!
+            <i class="fa-solid fa-paper-plane pl-4"></i>
+          </button>
+        </div>
+        <div class="relative flex flex-col-reverse items-center">
+          <div class="bg-[#F3B848] w-full h-[70%]"></div>
+          <img
+            src="./images/profile picture.png"
+            alt="profile picture"
+            class="absolute h-full"
+          />
+        </div>
+        <div class="bg-[#1C4931] px-8 pt-20">
+          <div class="flex gap-2 snap-x scroll-mx-px">
+            <div class="">
+            <img
+              src="./images/image 1.jpg"
+              alt="landing page screenshoot 1"
+              class="snap-start"
+            />
+            </div>
+            <div class="">
+            <img
+              src="./images/image 2.jpg"
+              alt="landing page screenshoot 2"
+              class=""
+            />
+            </div>
+          </div>
+          <p class="text-white text-3xl font-normal mt-24">
+            Blending the design with web programming skills to deliver an
+            immersive and engaging user experience through efficient website
+            development, proactive feature optimization, and relentless
+            debugging.
+          </p>
+        </div>
+      </section>
+    </header>
+    <main id="main-content" class=""></main>
+    <footer></footer>
+  </body>
 </html>
