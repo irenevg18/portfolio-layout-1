@@ -715,6 +715,30 @@ video {
   margin-top: 6rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -755,6 +779,22 @@ video {
   height: 100%;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
+.h-\[20\%\] {
+  height: 20%;
+}
+
+.h-\[30\%\] {
+  height: 30%;
+}
+
+.h-\[80\%\] {
+  height: 80%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -793,6 +833,22 @@ video {
 
 .w-\[30vw\] {
   width: 30vw;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-2\/6 {
+  width: 33.333333%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .min-w-\[30vw\] {
@@ -913,13 +969,41 @@ video {
   border-width: 2px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b-2 {
   border-bottom-width: 2px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-\[\#FFF7E8\] {
   --tw-border-opacity: 1;
   border-color: rgb(255 247 232 / var(--tw-border-opacity));
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-emerald-950 {
+  --tw-border-opacity: 1;
+  border-color: rgb(2 44 34 / var(--tw-border-opacity));
+}
+
+.border-emerald-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(6 95 70 / var(--tw-border-opacity));
+}
+
+.border-t-emerald-950 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(2 44 34 / var(--tw-border-opacity));
 }
 
 .bg-\[\#FFF7E8\] {
@@ -970,6 +1054,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-emerald-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 78 59 / var(--tw-bg-opacity));
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -978,6 +1067,10 @@ video {
 .object-fill {
   -o-object-fit: fill;
      object-fit: fill;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-8 {
@@ -1052,6 +1145,22 @@ video {
   padding-top: 5rem;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1075,6 +1184,31 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -1101,9 +1235,23 @@ video {
   font-weight: 300;
 }
 
+.font-extralight {
+  font-weight: 200;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-emerald-800 {
+  --tw-text-opacity: 1;
+  color: rgb(6 95 70 / var(--tw-text-opacity));
+}
+
+.text-\[\#FFF7E8\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 247 232 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1143,6 +1291,10 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.hover\:w-\[60\%\]:hover {
+  width: 60%;
+}
+
 .hover\:border-b-2:hover {
   border-bottom-width: 2px;
 }
@@ -1165,6 +1317,11 @@ video {
   background-color: rgb(6 95 70 / 0.1);
 }
 
+.hover\:bg-emerald-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 95 70 / var(--tw-bg-opacity));
+}
+
 .hover\:font-semibold:hover {
   font-weight: 600;
 }
@@ -1184,6 +1341,11 @@ video {
 
 .hover\:text-emerald-800\/50:hover {
   color: rgb(6 95 70 / 0.5);
+}
+
+.hover\:text-\[\#FFF7E8\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 247 232 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1215,6 +1377,10 @@ video {
 .hover\:shadow-emerald-800\/60:hover {
   --tw-shadow-color: rgb(6 95 70 / 0.6);
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.focus\:w-\[60\%\]:focus {
+  width: 60%;
 }
 
 .focus\:border-emerald-800:focus {
@@ -1255,4 +1421,9 @@ video {
 .focus\:shadow-emerald-800\/40:focus {
   --tw-shadow-color: rgb(6 95 70 / 0.4);
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.focus\:blur-sm:focus {
+  --tw-blur: blur(4px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }

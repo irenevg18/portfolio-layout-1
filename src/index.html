@@ -13,7 +13,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="bg-[#FFF7E8]">
+  <body class="bg-[#FFF7E8] mb-20">
     <header>
       <nav class="flex justify-between mr-32 ml-[98px] my-4 items-center">
         <a
@@ -70,23 +70,28 @@
             class="absolute h-full"
           />
         </div>
+        <!-- snap x -->
         <div class="bg-[#1C4931] px-8 pt-20">
-          <div class="flex gap-2 snap-x scroll-mx-px">
+          <a
+            href="#portfolio"
+            class="flex gap-2 focus:blur-sm w-full snap-x scroll-mx-px"
+          >
             <div class="">
-            <img
-              src="./images/image 1.jpg"
-              alt="landing page screenshoot 1"
-              class="snap-start"
-            />
+              <img
+                src="./images/image 1.jpg"
+                alt="landing page screenshoot 1"
+                class="snap-start"
+              />
             </div>
             <div class="">
-            <img
-              src="./images/image 2.jpg"
-              alt="landing page screenshoot 2"
-              class=""
-            />
+              <img
+                src="./images/image 2.jpg"
+                alt="landing page screenshoot 2"
+                class="snap-end"
+              />
             </div>
-          </div>
+          </a>
+          <!--  -->
           <p class="text-white text-3xl font-normal mt-24">
             Blending the design with web programming skills to deliver an
             immersive and engaging user experience through efficient website
@@ -96,7 +101,44 @@
         </div>
       </section>
     </header>
-    <main id="main-content" class=""></main>
+    <main id="main-content" class="">
+      <article class="flex mx-32 mt-32">
+        <div>
+          <h2 class="text-7xl font-bold underline">
+            Services I <br />
+            Offer
+          </h2>
+          <p class="w-2/5 text-2xl mt-10">
+            I help ambitios business like your, generate more profits by
+            building awareness, driving web trafic, connecting with customer and
+            growing overal sales.
+          </p>
+        </div>
+        <div>
+          <div class="flex gap-8 mb-20 border-t border-emerald-950 pt-8 items-center">
+            <div>
+              <h4 class="text-6xl font-extralight mb-2">Web Design</h4>
+              <p>I start by learn and research based on client and resource to gain about the needs.</p>
+            </div>
+            <i class="fa-solid fa-location-arrow text-4xl text-emerald-800 hover:text-[#FFF7E8] border border-emerald-800 hover:bg-emerald-800 p-6 rounded-full"></i>
+          </div>
+          <div class="flex gap-8 mb-20 border-t border-emerald-950 pt-8 items-center">
+            <div>
+              <h4 class="text-6xl font-extralight mb-2">UX/UI</h4>
+              <p>I start by learn and research based on client and resource to gain about the needs.</p>
+            </div>
+            <i class="fa-solid fa-location-arrow text-4xl hover:text-[#FFF7E8] text-emerald-800 border border-emerald-800 hover:bg-emerald-800 p-6 rounded-full"></i>
+          </div>
+          <div class="flex gap-8 mb-20 border-t border-emerald-950 pt-8 items-center">
+            <div>
+              <h4 class="text-6xl font-extralight mb-2">Branding</h4>
+              <p>I start by learn and research based on client and resource to gain about the needs.</p>
+            </div>
+            <i class="fa-solid fa-location-arrow text-4xl hover:text-[#FFF7E8] border border-emerald-800 text-emerald-800 hover:bg-emerald-800 p-6 rounded-full"></i>
+          </div>
+        </div>
+      </article>
+    </main>
     <footer></footer>
   </body>
 </html>
