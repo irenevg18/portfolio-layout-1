@@ -14,8 +14,10 @@
     />
   </head>
   <body class="bg-[#FFF7E8] mb-20">
-    <header>
-      <nav class="flex justify-between mr-32 ml-[98px] my-4 items-center">
+    <header class="flex flex-col items-centers">
+      <nav
+        class="flex flex-col gap-2 md:gap-0 md:flex-row text-xs md:text-base justify-between mx-2  md:mr-24 lg:mr-32 md:ml-[8%] lg:ml-[6%] my-4 items-center"
+      >
         <a
           href="#main-content"
           class="focus:bg-emerald-800/10 border-2 border-[#FFF7E8] hover:border-emerald-800 rounded-full"
@@ -49,20 +51,28 @@
           </li>
         </ul>
       </nav>
-      <section class="grid grid-cols-3 mx-32 gap-8 h-[75vh]">
-        <div class="bg-[#D85841] px-8 py-20">
-          <h1 class="text-white font-medium text-6xl">
-            Building stuffs for the web are accessible and human centered
-            design.
-          </h1>
-          <button
-            class="bg-white px-8 py-3 text-xl mt-10 rounded-lg hover:text-emerald-800 focus:text-emerald-800/50 shadow-lg shadow-black/40 hover:shadow-emerald-800/60"
-          >
-            Let's talk!
-            <i class="fa-solid fa-paper-plane pl-4"></i>
-          </button>
+      <section
+        class="grid lg:grid-cols-3 mx-0 md:mx-24 lg:mx-32 gap-2 min-w-[375px] lg:gap-8 h-[75vh]"
+      >
+        <div class="bg-[#D85841] flex flex-row lg:flex-col md:px-8 px-4 py-10 md:pb-0 lg:py-20">
+          <div>
+            <h1
+              class="text-white font-medium lg:text-6xl text-4xl text-center md:text-left"
+            >
+              Building stuffs for the web are accessible and human centered
+              design.
+            </h1>
+            <button
+              class="bg-white px-8 py-3 text-lg self-center md:self-start md:text-xl mt-10 rounded-lg hover:text-emerald-800 focus:text-emerald-800/50 shadow-lg shadow-black/40 hover:shadow-emerald-800/60"
+            >
+              Let's talk!
+              <i class="fa-solid fa-paper-plane pl-4"></i>
+            </button>
+          </div>
+          <img src="./images/profile picture.png" alt="profile picture" class="hidden md:block h-[30vh] self-end lg:hidden" />
         </div>
-        <div class="relative flex flex-col-reverse items-center">
+
+        <div class="relative hidden lg:flex lg:flex-col-reverse items-center">
           <div class="bg-[#F3B848] w-full h-[70%]"></div>
           <img
             src="./images/profile picture.png"
@@ -71,7 +81,7 @@
           />
         </div>
         <!-- snap x -->
-        <div class="bg-[#1C4931] px-8 pt-20">
+        <div class="bg-[#1C4931] px-8 lg:pt-20 pt-10">
           <a
             href="#portfolio"
             class="flex gap-2 focus:blur-sm w-full snap-x scroll-mx-px"
@@ -92,7 +102,7 @@
             </div>
           </a>
           <!--  -->
-          <p class="text-white text-3xl font-normal mt-24">
+          <p class="text-white lg:text-3xl text-xl font-normal lg:mt-24 my-8 lg:mb-0">
             Blending the design with web programming skills to deliver an
             immersive and engaging user experience through efficient website
             development, proactive feature optimization, and relentless
@@ -378,13 +388,16 @@
         </div>
       </article>
       <article class="bg-[#1C4931] mt-32 py-32 text-center">
-        <h4 class="text-white text-5xl font-light">Interested in working together <br> with me?</h4>
+        <h4 class="text-white text-5xl font-light">
+          Interested in working together <br />
+          with me?
+        </h4>
         <button
-        class="bg-white px-8 py-3 text-xl mt-10 rounded-lg hover:text-emerald-800 focus:text-emerald-800/50 shadow-lg shadow-black/40 hover:shadow-emerald-800/60"
-      >
-        Let's talk!
-        <i class="fa-solid fa-paper-plane pl-4"></i>
-      </button>
+          class="bg-white px-8 py-3 text-xl mt-10 rounded-lg hover:text-emerald-800 focus:text-emerald-800/50 shadow-lg shadow-black/40 hover:shadow-emerald-800/60"
+        >
+          Let's talk!
+          <i class="fa-solid fa-paper-plane pl-4"></i>
+        </button>
       </article>
     </main>
     <footer class="mt-10 text-center">
